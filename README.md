@@ -14,3 +14,10 @@ The traffic information is stored and updated in the `traffic/` folder.
 
 To be able to access the traffic information, we have defined a "TRAFFIC_ACTION_TOKEN" secret on this repo which contains a Personal Access Token with the requisite accesses to the tracked repositories (for a fine-grained PAT, you need to allow permission for "administration", read-only is enough).
 
+
+
+**Additionally**, we need to ensure that this repo's action can perform commits.
+For this, go to:
+**Settings → Actions → General → Workflow permissions** and make sure “Read and write permissions” is selected (not just “Read repository contents”).
+
+
