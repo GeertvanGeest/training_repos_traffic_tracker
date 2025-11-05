@@ -15,14 +15,6 @@ jobs:
     - uses: actions/checkout@v2
       with:
         ref: "main"
-    
-    # Calculates traffic and clones and stores in CSV file
-    - name: GitHub traffic 
-      uses: sangonzal/repository-traffic-action@v.0.1.6
-      env:
-        TRAFFIC_ACTION_TOKEN: ${{ secrets.TRAFFIC_ACTION_TOKEN }} 
-        REPOSITORY_NAME: "WandrilleD/GRACE-intro-machine-learning-training"
-
 
     - name: setup python
       uses: actions/setup-python@v5
