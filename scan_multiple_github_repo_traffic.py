@@ -40,11 +40,14 @@ def read_table( file ):
     
     return data
 
-def get_metrics( repo , github_object ):
+def get_metrics( repo , github_object , raise_error = True):
     """ given 1 repository name and a github object, gather views and clones data.
 
     returns the data in a dictionary whose keys are 'view_count','view_unique','clone_count', or 'clone_unique'
     and whose values are dictionaries whose keys are datetime and value are the corresponding value (ie, number of views, or clone,..)
+
+    If the raise_error argument is False, if the code fails to gather the repo data (likely because it lacks authorization) it returns the expected object without data
+    Otherwise the thrown error is raised
     """
     repo = github_object.get_repo( repo )
     
@@ -54,17 +57,20 @@ def get_metrics( repo , github_object ):
     data['clone_count'] = {}
     data['clone_unique'] = {}
 
-    
-    views = repo.get_views_traffic()
-    for v in views.views:
-        data['view_count'][v.timestamp]  = v.count
-        data['view_unique'][v.timestamp] = v.uniques
+    try:
+        views = repo.get_views_traffic()
+        for v in views.views:
+            data['view_count'][v.timestamp]  = v.count
+            data['view_unique'][v.timestamp] = v.uniques
 
-    clones = repo.get_clones_traffic()
-    for c in clones.clones:
-        data['clone_count'][c.timestamp]  = c.count
-        data['clone_unique'][c.timestamp] = c.uniques
-        
+        clones = repo.get_clones_traffic()
+        for c in clones.clones:
+            data['clone_count'][c.timestamp]  = c.count
+            data['clone_unique'][c.timestamp] = c.uniques
+    except Exception as e:
+        if raise_error:
+            raise e
+
     return data
 
 def complement_data_structure( min_date,  max_date, repo_list, data = {} ):
@@ -136,7 +142,8 @@ for k in files:
 raw_data = {}
 for r in repo_list:
     raw_data[r] = get_metrics( repo = r, 
-                               github_object = g )
+                               github_object = g,
+                               raise_error = False )
 
 
 ## determining the time window of the data
