@@ -1,0 +1,16 @@
+date,sib-swiss/training_repos_traffic_tracker,sib-swiss/cancer-variants-training,sib-swiss/intro-machine-learning-training,sib-swiss/seq-spatial-transcriptomics-training,sib-swiss/training-cookbook,sib-swiss/pytorch-practical-training,sib-swiss/enrichment-analysis-training,sib-swiss/shell-scripting-training,sib-swiss/sequencing-data-analysis-training,sib-swiss/intermediate-machine-learning-training,sib-swiss/intermediate-python-training,sib-swiss/single-cell-r-training,sib-swiss/first-steps-with-R-training,sib-swiss/first-steps-with-python-training,sib-swiss/git-training,sib-swiss/immunology-in-bioinformatics-training,sib-swiss/atac-seq-training,sib-swiss/containers-snakemake-training,sib-swiss/containers-introduction-training,sib-swiss/llm-biodata-training,sib-swiss/statistics-and-machine-learning-training,sib-swiss/intro-bayesian-statistics-training,sib-swiss/reproducible-analysis-training,sib-swiss/RNAseq-introduction-training,sib-swiss/single-cell-python-training,sib-swiss/spatial-transcriptomics-training,sib-swiss/multiomics-data-analysis-and-integration-training,sib-swiss/unix-first-steps-training,sib-swiss/federated-learning-training,sib-swiss/single-cell-training,sib-swiss/glittr,sib-swiss/biology-informed-multiomics-training,sib-swiss/introduction-to-statistics-with-python-training,sib-swiss/metagenomics-data-analysis-training,sib-swiss/NGS-introduction-training,sib-swiss/NGS-longreads-training,sib-swiss/fair-training-guide,sib-swiss/ena-seqdata-training,sib-swiss/NGS-variants-training,sib-swiss/sparql-training,sib-swiss/advanced-r-training,sib-swiss/gh-pages-training
+2025-12-09 00:00:00+00:00,0,0,2,0,0,2,0,0,0,0,4,0,3,3,0,0,0,0,0,0,2,2,2,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2025-12-10 00:00:00+00:00,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-12-11 00:00:00+00:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-12-12 00:00:00+00:00,0,0,2,0,0,0,0,0,0,0,1,0,1,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-12-13 00:00:00+00:00,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-12-14 00:00:00+00:00,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2025-12-15 00:00:00+00:00,0,0,5,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-12-16 00:00:00+00:00,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-12-17 00:00:00+00:00,7,0,0,0,0,0,0,0,0,1,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-12-18 00:00:00+00:00,3,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-12-19 00:00:00+00:00,2,0,2,0,0,3,0,0,0,1,1,0,1,2,0,0,0,0,0,0,1,3,2,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+2025-12-20 00:00:00+00:00,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+2025-12-21 00:00:00+00:00,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2025-12-22 00:00:00+00:00,3,0,9,0,0,0,0,0,0,0,4,0,2,3,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+2025-12-23 00:00:00+00:00,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
