@@ -25,7 +25,7 @@ jobs:
       run: python -m pip install pygithub
 
     - name: multiple repo traffic script
-      run: python scan_multiple_github_repo_traffic.py repos_to_watch.txt traffic/all_views.csv traffic/all_views_unique.csv traffic/all_clones.csv traffic/all_clones_unique.csv
+      run: python scan_multiple_github_repo_traffic.py repos_to_watch.txt traffic/all_views.csv traffic/all_views_unique.csv traffic/all_clones.csv traffic/all_clones_unique.csv traffic/referrers.json traffic/paths.json
       env:
         TRAFFIC_ACTION_TOKEN: ${{ secrets.TRAFFIC_ACTION_TOKEN }} 
 
